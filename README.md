@@ -27,21 +27,24 @@ This documentation outlines the Features, How to run, How to test and execute AP
   - group user can unlike message
 
 ## How to run
-- clone the repo
-- run - npm install
-- add .env file in the same directory
-- add below mentioned env variable in .env file
-  - DATABASE = mongodb-url
-  - DATABASE_TEST = mongodb-test-url
-  - DATABASE_TEST_PASSWORD = mongodb-test-password
-  - DATABASE_PASSWORD = mongodb-password
-  - JWT_SECRET = your-secret-string
-  - JWT_EXPIRES_IN = 1d
-  - JWT_COOKIE_EXPIRES_IN = 1
+- Clone the repo
+- Run below command
+<pre>npm install</pre>
+- Add .env file in the same directory
+- Add below mentioned env variable in .env file
+<pre>
+  DATABASE = mongodb-url
+  DATABASE_TEST = mongodb-test-url
+  DATABASE_TEST_PASSWORD = mongodb-test-password
+  DATABASE_PASSWORD = mongodb-password
+  JWT_SECRET = your-secret-string
+  JWT_EXPIRES_IN = 1d
+  JWT_COOKIE_EXPIRES_IN = 1
+</pre>
 
 ## How to run test
-- after adding test db in .env file run below command
-  - npm run test
+After adding test db in .env file run below command
+<pre>npm run test</pre>
  
 ## API Endpoints
 <pre>
