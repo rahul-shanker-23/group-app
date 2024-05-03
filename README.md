@@ -1,7 +1,7 @@
 <h1>Group Chat App API Documentation</h1>
 
 The Group Chat App API provides developers with the tools to integrate group messaging functionality into their applications. 
-This documentation outlines the Features, How to run, How to test and execute API.
+This documentation outlines the Features, How to run, How to test and API Endpoints.
 
 ## Features
 - Admin
